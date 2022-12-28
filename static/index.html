@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>POC Pion StreamingRoom</title>
+    <script src="index.js"></script>
+</head>
+<body>
+<div style="display: flex">
+    <div style="flex: 1">
+        <h1>Remote Video</h1>
+        <video id="video" width="480px" height="320px" autoplay style="border: 1px solid black"></video>
+    </div>
+    <div style="flex: 1">
+        <h1>Rooms</h1>
+        <button id="refreshRooms">Refresh Rooms List</button>
+        <ul id="rooms-list" style=""></ul>
+    </div>
+</div>
+<div style="flex: 1">
+    <div style="flex: 1">
+        <h1>Admin Panel</h1>
+        <button id="createRelayBtn">Create Room</button>
+        <br/>
+        <button id="connectBtn">Connect with PC</button>
+    </div>
+</div>
+</body>
+</html>
